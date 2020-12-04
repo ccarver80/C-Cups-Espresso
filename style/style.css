@@ -11,9 +11,11 @@ header{
   margin-left: 30px;
 }
 a{
+
   color: inherit;
 }
 nav{
+
   color: rgba(0, 0, 0, 1);
   text-align: center;
   background-color: rgba(224, 229, 229, .6);
