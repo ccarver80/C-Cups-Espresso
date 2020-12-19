@@ -2,6 +2,8 @@ header {
   justify-content: center;
   margin: 20px;
   background-image: url("../imgs/coffee.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
   border-radius: 20px;
 }
 
@@ -26,10 +28,11 @@ header h2 {
 }
 
 .deal {
+  font-size: 50px;
   margin: 20px;
   text-align: center;
   border-radius: 20px;
-  background-color: gray;
+  background-color: red;
 }
 
 .menu {
@@ -38,7 +41,22 @@ header h2 {
   margin: 20px;
   text-align: left;
   border-radius: 20px;
-  background-color: gray;
+  background-image: url("../imgs/cup.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.menu h1 {
+  margin-left: auto;
+  margin-right: auto;
+  display: inline;
+  text-align: center;
+  background-color: rgba(225, 225, 225, 0.7);
+}
+
+.menu ul {
+  background-color: rgba(225, 225, 225, 0.7);
 }
 
 .menu dd{
